@@ -29,7 +29,7 @@ const Hero = () => {
                 />
 
                 <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-                    Hi, I'm Rafid a passionate Web Developer from Bangladesh
+                    Hi, I&apos;m Rafid a passionate Web Developer from Bangladesh
                 </p>
                 <a href="#about">
                     <MagicButton 
