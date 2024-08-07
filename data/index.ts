@@ -72,19 +72,19 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/p1.svg",
+      title: "3D AI T-shirt Customization",
+      des: "Create custom 3D T-shirts using AI-generated images with our interactive React and Three.js app.",
+      img: "/AI.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/adrianhajdin?tab=repositories",
+      link: "https://github.com/Rafid13iit/3D-AI-Tshirt-Customization",
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+      title: "Boom - Video Conferencing App",
+      des: "Simplify your video conferencing experience with Boom. Seamlessly connect with colleagues and friends.",
       img: "/p2.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
+      link: "https://github.com/Rafid13iit/zoom_type_app",
     },
     {
       id: 3,
