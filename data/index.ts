@@ -107,33 +107,27 @@ export const navItems = [
   export const testimonials = [
     {
       quote:
-        "Collaborating with Rafid was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "As of now, I have not received testimonials from collaborators. As a student, I am continuously developing my skills and actively collaborating with others. I look forward to sharing feedback from my peers and mentors here in the future.",
+      name: "Rafid",
+      title: "Aspiring Developer",
     },
     {
       quote:
-        "Collaborating with Rafid was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "This is a placeholder testimonial for testing purposes. Working with Rafid has been an enriching experience. His dedication and eagerness to learn are commendable.",
+      name: "John Doe",
+      title: "Sample Mentor",
     },
     {
       quote:
-        "Collaborating with Rafid was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "As of now, I have not received testimonials from collaborators. As a student, I am continuously developing my skills and actively collaborating with others. I look forward to sharing feedback from my peers and mentors here in the future.",
+      name: "Rafid",
+      title: "Aspiring Developer",
     },
     {
       quote:
-        "Collaborating with Rafid was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Rafid was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "This is a placeholder testimonial for testing purposes. Working with Rafid has been an enriching experience. His dedication and eagerness to learn are commendable.",
+      name: "John Doe",
+      title: "Sample Mentor",
     },
   ];
   
@@ -173,29 +167,32 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
+      title: "Frontend Engineer",
       desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+      // title: "Mobile App Dev - JSM Tech",
+      title: "Co-Founder at NirmanChitra",
+      desc: "A startup of amazing UI/UX design team",
       className: "md:col-span-2",
       thumbnail: "/exp2.svg",
     },
     {
       id: 3,
-      title: "Freelance App Dev Project",
+      // title: "Freelance App Dev Project",
+      title: "Writer at The Royal Scientific Publications",
       desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
       className: "md:col-span-2",
       thumbnail: "/exp3.svg",
     },
     {
       id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
+      // title: "Lead Frontend Developer",
+      title: "Worked for XpeedLab",
+      desc: "(A software company based in Dhaka, Bangladesh) Worked for বইমেলা কম্পাস: Boimela Compass Mobile Application",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
     },
