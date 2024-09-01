@@ -107,27 +107,27 @@ export const navItems = [
   export const testimonials = [
     {
       quote:
-        "As of now, I have not received testimonials from collaborators. As a student, I am continuously developing my skills and actively collaborating with others. I look forward to sharing feedback from my peers and mentors here in the future.",
+        "I have not yet received any testimonials from collaborators. As an enthusiast learner, I work hard to improve my abilities and actively participate in group projects. In the future, I'm excited to provide input from my mentors and peers.",
       name: "Rafid",
       title: "Aspiring Developer",
     },
     {
       quote:
-        "This is a placeholder testimonial for testing purposes. Working with Rafid has been an enriching experience. His dedication and eagerness to learn are commendable.",
-      name: "John Doe",
-      title: "Sample Mentor",
+        "As of now, I have not received testimonials from collaborators. As a student, I am continuously developing my skills and actively collaborating with others. I look forward to sharing feedback from my peers and mentors here in the future.",
+      name: "Rafid",
+      title: "UI/UX Designer",
     },
     {
       quote:
-        "As of now, I have not received testimonials from collaborators. As a student, I am continuously developing my skills and actively collaborating with others. I look forward to sharing feedback from my peers and mentors here in the future.",
+        "As of yet, I have not received any recommendations from partners. I put a lot of effort into honing my skills as a student and take an active part in group projects. I'm eager to share feedback from my peers and mentors here in the future.",
       name: "Rafid",
       title: "Aspiring Developer",
     },
     {
       quote:
-        "This is a placeholder testimonial for testing purposes. Working with Rafid has been an enriching experience. His dedication and eagerness to learn are commendable.",
-      name: "John Doe",
-      title: "Sample Mentor",
+        "I have not yet gotten any endorsements from partners. As a student, I work hard to improve my abilities and actively participate in group projects. In the future, I'm excited to share comments from my mentors and peers here.",
+      name: "Rafid",
+      title: "Enthusiast Programmer",
     },
   ];
   
@@ -167,8 +167,9 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      // title: "Frontend Engineer",
+      title: "Office Secretary at IIT Software Engineers Community",
+      desc: "Managing and organizing key community activities, ensuring smooth communication and coordination within IITSEC.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },

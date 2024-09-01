@@ -32,7 +32,7 @@ const Hero = () => {
                     Hi, I&apos;m Rafid a passionate Web Developer from Bangladesh
                 </p>
                 <div className="flex gap-4">
-                    <a href="#about">
+                    <a href="#projects">
                     <MagicButton
                         title="Show my work"
                         icon={<FaLocationArrow />}
