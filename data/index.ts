@@ -185,7 +185,7 @@ export const navItems = [
       id: 3,
       // title: "Freelance App Dev Project",
       title: "Writer at The Royal Scientific Publications",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+      desc: "Worked on a corporate office culture in different teams with different group of university graduates",
       className: "md:col-span-2",
       thumbnail: "/exp3.svg",
     },
