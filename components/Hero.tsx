@@ -34,7 +34,7 @@ const Hero = () => {
                 Hi, I&apos;m Rafid a passionate Web Developer from Bangladesh
             </p>
   
-            <section className={`relative w-full h-screen mt-[-270px] mx-auto`}>
+            <section className={`relative w-full h-screen mt-[-250px] mx-auto`}>
                 <ComputersCanvas />
 
                 <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
