@@ -10,12 +10,14 @@
     "export": "next export"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@react-three/drei": "^9.112.0",
     "@react-three/fiber": "^8.17.7",
     "@sentry/nextjs": "^8.17.0",
     "clsx": "^2.1.1",
     "framer-motion": "^11.3.2",
     "lottie": "^0.0.1",
+    "maath": "^0.10.8",
     "mini-svg-data-uri": "^1.4.4",
     "next": "14.2.5",
     "next-themes": "^0.3.0",

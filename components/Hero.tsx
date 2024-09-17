@@ -26,7 +26,7 @@ const Hero = () => {
 
         <div className="flex flex-col items-center justify-center relative">
             <TextGenerateEffect 
-                className="text-center text-[40px] md:text-5xl lg:text-6xl"
+                className="text-center text-[50px] md:text-4xl lg:text-5xl"
                 words="Transforming Concepts into Seamless User Experiences"
             />
 
@@ -34,7 +34,7 @@ const Hero = () => {
                 Hi, I&apos;m Rafid a passionate Web Developer from Bangladesh
             </p>
   
-            <section className={`relative w-full h-screen mt-[-250px] mx-auto`}>
+            <section className={`relative w-full h-screen mt-[-250px] mb-10 mx-auto`}>
                 <ComputersCanvas />
 
                 <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>

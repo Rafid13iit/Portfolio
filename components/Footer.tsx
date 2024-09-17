@@ -2,6 +2,8 @@ import React from 'react'
 import MagicButton from './ui/MagicButton'
 import { FaDownload, FaLocationArrow } from 'react-icons/fa6'
 import { socialMedia } from '@/data'
+import Contact from './Contact'
+import StarsCanvas from './canvas/Stars'
 
 const Footer = () => {
   return (
@@ -37,6 +39,11 @@ const Footer = () => {
                 />
                 </a>
             </div>
+        </div>
+
+        <div className='relative z-0'>
+          <Contact />
+          <StarsCanvas />
         </div>
 
         <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
