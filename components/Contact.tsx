@@ -17,7 +17,6 @@ const Contact = () => {
 
   const [loading, setLoading] = useState(false);
 
-  // Properly typing the event 'e' as React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
 
@@ -27,15 +26,14 @@ const Contact = () => {
     });
   };
 
-  // Properly typing the form submission event as React.FormEvent<HTMLFormElement>
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setLoading(true);
 
     emailjs
       .send(
-        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID as string,
-        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID as string,
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
         {
           from_name: form.name,
           to_name: "Rafid",
@@ -43,7 +41,7 @@ const Contact = () => {
           to_email: "bsse1330@iit.du.ac.bd",
           message: form.message,
         },
-        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY as string
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
       )
       .then(
         () => {
@@ -72,25 +70,22 @@ const Contact = () => {
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
         style={{
-          background: "rgb(4,7,29)",
-          backgroundColor:
-            "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
+          background:
+            "linear-gradient(135deg, rgba(58,58,158,1) 0%, rgba(90,50,140,1) 50%, #5b345b 100%)",
           borderRadius: `calc(1.75rem* 0.96)`,
+          padding: "2rem",
+          boxShadow: "0px 4px 20px rgba(0, 0, 0, 0.5)", // Adding a soft shadow for depth
         }}
         className="flex-[0.75] p-8 rounded-2xl border-neutral-200 dark:border-slate-800"
       >
-        <p className="sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider">
+        <p className="sm:text-[18px] text-[14px] text-purple text-secondary uppercase tracking-wider">
           Get in touch
         </p>
-        <h3 className="sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider">
+        <h3 className="sm:text-[24px] text-[18px] font-bold text-white">
           Contact.
         </h3>
 
-        <form
-          ref={formRef}
-          onSubmit={handleSubmit}
-          className="mt-12 flex flex-col gap-8"
-        >
+        <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col gap-8">
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Name</span>
             <input
@@ -99,7 +94,7 @@ const Contact = () => {
               value={form.name}
               onChange={handleChange}
               placeholder="What's your good name?"
-              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              className="bg-[rgba(0,0,0,0.6)] py-4 px-6 placeholder:text-secondary placeholder:text-silver text-white rounded-lg outline-none border-none font-medium shadow-inner"
             />
           </label>
           <label className="flex flex-col">
@@ -109,8 +104,8 @@ const Contact = () => {
               name="email"
               value={form.email}
               onChange={handleChange}
-              placeholder="What's your web address?"
-              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              placeholder="What's your email?"
+              className="bg-[rgba(0,0,0,0.6)] py-4 px-6 placeholder:text-secondary placeholder:text-silver text-white rounded-lg outline-none border-none font-medium shadow-inner"
             />
           </label>
           <label className="flex flex-col">
@@ -121,13 +116,13 @@ const Contact = () => {
               value={form.message}
               onChange={handleChange}
               placeholder="What you want to say?"
-              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              className="bg-[rgba(0,0,0,0.6)] py-4 px-6 placeholder:text-secondary placeholder:text-silver text-white rounded-lg outline-none border-none font-medium shadow-inner"
             />
           </label>
 
           <button
             type="submit"
-            className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
+            className="bg-[#663399] py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary hover:bg-[#000319] transition duration-300"
           >
             {loading ? "Sending..." : "Send"}
           </button>

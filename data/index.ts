@@ -167,7 +167,6 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      // title: "Frontend Engineer",
       title: "Office Secretary at IIT Software Engineers Community",
       desc: "Managing and organizing key community activities, ensuring smooth communication and coordination within IITSEC.",
       className: "md:col-span-2",
@@ -175,7 +174,6 @@ export const navItems = [
     },
     {
       id: 2,
-      // title: "Mobile App Dev - JSM Tech",
       title: "Co-Founder at NirmanChitra",
       desc: "A startup of amazing UI/UX design team",
       className: "md:col-span-2",
@@ -183,7 +181,6 @@ export const navItems = [
     },
     {
       id: 3,
-      // title: "Freelance App Dev Project",
       title: "Writer at The Royal Scientific Publications",
       desc: "Worked on a corporate office culture in different teams with different group of university graduates",
       className: "md:col-span-2",
@@ -191,7 +188,6 @@ export const navItems = [
     },
     {
       id: 4,
-      // title: "Lead Frontend Developer",
       title: "Worked for XpeedLab",
       desc: "(A software company based in Dhaka, Bangladesh) Worked for বইমেলা কম্পাস: Boimela Compass Mobile Application",
       className: "md:col-span-2",
