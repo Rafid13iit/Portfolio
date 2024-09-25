@@ -72,11 +72,11 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D AI T-shirt Customization",
-      des: "Create custom 3D T-shirts using AI-generated images with our interactive React and Three.js app.",
-      img: "/AI.svg",
+      title: "Doctor's Care",
+      des: "Doctor's Care is a patient management web application designed to streamline appointment scheduling, patient records, and doctor assignments.",
+      img: "/dc.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/Rafid13iit/3D-AI-Tshirt-Customization",
+      link: "https://github.com/Rafid13iit/Doctors_Care",
     },
     {
       id: 2,
@@ -88,19 +88,19 @@ export const navItems = [
     },
     {
       id: 3,
-      title: "AI Image SaaS - Canva Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-      img: "/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
+      title: "3D AI T-shirt Customization",
+      des: "Create custom 3D T-shirts using AI-generated images with our interactive React and Three.js app.",
+      img: "/AI.svg",
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+      link: "https://github.com/Rafid13iit/3D-AI-Tshirt-Customization",
     },
     {
       id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "/p4.svg",
+      title: "Prompts Master",
+      des: "Prompts Master is a Next.js practice project that enables users to create, explore, and share AI-powered text prompts.",
+      img: "/pm.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
+      link: "https://github.com/Rafid13iit/Prompts_Master_NextjsPractiseProject",
     },
   ];
   
